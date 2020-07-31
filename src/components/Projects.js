@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import Modal from './Modal';
-import TableOfContents from './TableOfContents';
 import Nav from './Nav';
 import MyCarousel from './MyCarousel';
 import greetings from '../text/greetings_text';

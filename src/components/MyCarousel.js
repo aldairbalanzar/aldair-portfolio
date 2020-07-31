@@ -1,8 +1,4 @@
 import React, {useEffect} from 'react';
-import "react-responsive-carousel/lib/styles/carousel.min.css";
-// import { Carousel } from 'react-responsive-carousel';
-// import { CarouselProvider, Slider, Slide, ButtonBack, ButtonNext, Image } from 'pure-react-carousel';
-// import 'pure-react-carousel/dist/react-carousel.es.css';
 import List from './List'
 import projects from '../text/projects_text';
 
@@ -22,10 +18,6 @@ const MyCarousel = ({handleModal, isModalOpen, carouselNum, setCarouselNum, setG
         }
     }
     
-    useEffect(() => {
-        // document.querySelector('.control-prev').addEventListener("click", () => {handleNum('prev')})
-        // document.querySelector('.control-next').addEventListener("click", () => {handleNum('next')})
-    }, [handleNum])
 
     return(
         <div className={isModalOpen ? 'carousel-open' : 'carousel-close'}>

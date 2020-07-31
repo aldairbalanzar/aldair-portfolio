@@ -8,7 +8,7 @@ const greetings = [
     'My name is Aldair and these projects are ones that I have been a part of, click on them to check them out.',
     'Hey, I\'m  full-stack web developer, Aldair and these are works that I have been a part of, come take a look.',
     ' Oh! Here is the back-end repo as well',
-    'Here is a link to the project\'s repository if you\'d like to see my work in more detail.',
+    'Here is a link to the project\'s repository if you\'d like to see more details.',
     `Also, here is a link to my Github in case you want to look at my work in more detail.`
 ];
 
