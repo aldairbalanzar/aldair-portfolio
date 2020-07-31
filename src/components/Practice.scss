@@ -69,8 +69,8 @@ table {
             z-index: 2;
             div {
                 .hamburger {
-                    font-size: 3rem;
-                    padding: 2% 0;
+                    font-size: 2.8rem;
+                    padding: 3% 0;
                 }
             }
             
@@ -119,8 +119,8 @@ table {
             z-index: 1;
             div {
                 .hamburger {
-                    font-size: 3rem;
-                    padding: 2% 0;
+                    font-size: 2.8rem;
+                    padding: 3% 0;
                 }
             }
             .nav-icon-container {
@@ -196,7 +196,7 @@ table {
             }
             .modal {
                 position: relative;
-                top: 36%;
+                top: 38%;
                 left: 50%;
                 transform: translate(-50%, -50%);
                 height: 70%;
@@ -258,7 +258,7 @@ table {
         }
 
         .carousel-open {
-            padding: 14% 0 0 0;
+            padding: 13% 0 0 0;
             z-index: -1;
             .slide-open {
                 z-index: -1;
@@ -272,7 +272,7 @@ table {
         }
 
         .carousel-close {
-            padding: 14% 0 0 0;
+            padding: 13% 0 0 0;
             z-index: -1;
             .slide-close {
                 z-index: -1;
