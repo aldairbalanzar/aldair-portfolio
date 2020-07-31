@@ -223,10 +223,10 @@ table {
                     width: 100%;
                     box-shadow: 0 0 12px rgba(0, 0, 0, 0.4);
                     z-index: 3;
-                    padding: 5%;
+                    padding: 3%;
                     background:  rgb(228, 228, 228);
                     h1 {
-                        font-size: 1.6rem;
+                        font-size: 1.4rem;
                         font-weight: 600;
                         text-align: left;
                         padding: 0 0 2%;
@@ -258,7 +258,7 @@ table {
         }
 
         .carousel-open {
-            padding: 13% 0 0 0;
+            padding: 12% 0 0 0;
             z-index: -1;
             .slide-open {
                 z-index: -1;
@@ -272,7 +272,7 @@ table {
         }
 
         .carousel-close {
-            padding: 13% 0 0 0;
+            padding: 12% 0 0 0;
             z-index: -1;
             .slide-close {
                 z-index: -1;
