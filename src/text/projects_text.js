@@ -7,16 +7,16 @@ const projects = [
     {
         id: 1,
         name: 'D8Picker',
-        description: 'I contributed to back-end and front-end work when I worked on D8Picker where I implemented CRUD functionality. I also adjusted our database schema to accept more data that would bring more customizable features to our front-end.',
+        description: 'I contributed to D8Picker\'s back-end and front-end development where I implemented CRUD functionality, adjusted our database schema for more customization to our application, and tested endpoints for our test cases',
         img: d8Picker_img,
-        technologies: ['Google API', 'OAuth', 'Styled Components', 'Context API', 'NodeJS', 'PostgreSQL', 'Supertest'],
+        technologies: ['Google API', 'OAuth', 'Styled Components', 'NodeJS', 'PostgreSQL', 'Supertest'],
         website_url: 'https://www.d8picker.com/',
         github_repo: ['https://github.com/aldairbalanzar/school-calendar-fe', 'https://github.com/aldairbalanzar/school-calendar-be']
     },
     {
         id: 2,
         name: 'SIGNtific',
-        description: 'SIGNtific is the application that inspired me to pursue a career in web development. The application is a basic demo that provides a user with the American Sign Language video of the image they click on. Videos were a collaborative effort with Mrs. Gini.',
+        description: 'SIGNtific is what inspired me to pursue a career in web development. The application is a basic demo that provides a user with the American Sign Language sign of the image they click on. Videos were a collaborative effort with Mrs. Gini.',
         img: signtific_img,
         technologies: ['Vanilla Javascript', 'Bootstrap', 'MAGIX Vegas Pro 15'],
         website_url: 'https://signtific.github.io/',
@@ -33,7 +33,7 @@ const projects = [
     },
     {
         id: 4,
-        name: 'Internation School Social Worker',
+        name: 'School Social Worker',
         description: 'This project is a basic static marketing page for an application in which a user can store basic student information and access it as they require it.',
         img: international_img,
         technologies: ['Semantic HTML', 'LESS', 'FontAwesome'],
