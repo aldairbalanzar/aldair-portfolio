@@ -36,10 +36,10 @@ const MyCarousel = ({handleModal, isModalOpen, carouselNum, setCarouselNum, setG
                 {carouselNum === 4 && <a href={projects[3].website_url} target="_blank"><img src={projects[3].img} className="slide-img"/></a>}
             </div>
 
-            {carouselNum === 1 && <List project={projects[0]} carouselNum={carouselNum} handleNum={handleNum}/>}
-            {carouselNum === 2 && <List project={projects[1]} carouselNum={carouselNum} handleNum={handleNum}/>}
-            {carouselNum === 3 && <List project={projects[2]} carouselNum={carouselNum} handleNum={handleNum}/>}
-            {carouselNum === 4 && <List project={projects[3]} carouselNum={carouselNum} handleNum={handleNum}/>}
+            {carouselNum === 1 && <List project={projects[0]} carouselNum={carouselNum} handleNum={handleNum} handleModal={handleModal}/>}
+            {carouselNum === 2 && <List project={projects[1]} carouselNum={carouselNum} handleNum={handleNum} handleModal={handleModal}/>}
+            {carouselNum === 3 && <List project={projects[2]} carouselNum={carouselNum} handleNum={handleNum} handleModal={handleModal}/>}
+            {carouselNum === 4 && <List project={projects[3]} carouselNum={carouselNum} handleNum={handleNum} handleModal={handleModal}/>}
 
             <div className="more-info-container">   
                 {carouselNum === 1 && <h3 className="more-info" onClick={() => {handleModal(projects[0])}}>More Info</h3>}
