@@ -3,6 +3,7 @@ import List from './List'
 import projects from '../text/projects_text';
 
 const MyCarousel = ({handleModal, isModalOpen, carouselNum, setCarouselNum, setGithub}) => {
+    console.log('projects', projects)
     const handleNum = (operation) => {
         if(operation === 'prev') {
             setCarouselNum(carouselNum - 1)
@@ -13,8 +14,8 @@ const MyCarousel = ({handleModal, isModalOpen, carouselNum, setCarouselNum, setG
         if(carouselNum === 1 && operation === 'prev') {
             setCarouselNum(1)
         }
-        if(carouselNum === 4 && operation === 'next') {
-            setCarouselNum(4)
+        if(carouselNum === projects.length && operation === 'next') {
+            setCarouselNum(projects.length)
         }
     }
     
