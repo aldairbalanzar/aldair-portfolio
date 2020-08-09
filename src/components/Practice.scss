@@ -289,15 +289,25 @@ table {
             display: flex;
             justify-content: center;
             width: 100%;
-            background-color: rgb(231, 124, 178); 
-            i {
-                width: 10%;
+            background-color: rgb(231, 124, 178);
+            .hidden-arrow {
+                // border: solid 2px red;
+                width: 16%;
                 font-size: 2.6rem;
+                padding: 2% 0;
+                pointer-events: none;
+            } 
+            .arrow {
+                // border: solid 2px red;
+                text-align: center;
+                width: 16%;
+                font-size: 2.8rem;
                 padding: 2% 0;
                 color: white;
             }
             .project-name {
-                width: 80%;
+                width: 84%;
+                text-align: center;
                 font-size: 1.6rem;
                 font-weight: 600;
                 color: white;
@@ -332,7 +342,7 @@ table {
                 border: 3px solid rgb(56,138,135);
                 border-radius: 25px;
                 padding: 2% 0;
-                margin: 2% 0 0;
+                margin: 2% 0;
             }
         }
 
